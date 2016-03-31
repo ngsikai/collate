@@ -1,4 +1,7 @@
 language: java
 branches:
+    except:
+        - master
+branches:
     only:
         - travis-ci
